@@ -15,8 +15,15 @@
     }
   },
   "mail": {
-    "transport": "Direct"
-  },
+  "transport": "SMTP",
+  "options": {
+    "service": "Mailgun",
+    "auth": {
+      "user": "postmaster@sandboxc27982b00b914f6a917f46676bf3b242.mailgun.org",
+      "pass": "6e36f9c98b321fa45b76f3d59559fe63-32a0fef1-8c0fed2c"
+    }
+  }
+},
   "logging": {
     "transports": [
       "stdout"
